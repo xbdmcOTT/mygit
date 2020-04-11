@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:gravity="center"
+
+    tools:context=".Choose">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="325dp"
+        android:layout_height="329dp"
+        android:width="250dp"
+        android:height="170dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="12pt" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="199dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        android:layout_marginBottom="82dp"
+        android:text="播放音乐" />
+</RelativeLayout>
